@@ -24,3 +24,5 @@ This repository contains the Ansys HFSS simulation files for a 3x3 probe-fed mic
 2. Open the `.aedt` file in Ansys HFSS (2023 or newer recommended).
 3. Run the `Setup1` analysis.
 4. View the `SourceGroup1` 3D Polar Plots to see the broadside and steered beams.
+
+Disclaimer: The primary focus of this simulation was to validate the beam-steering algorithm using progressive phase shifts. The geometry and radiation parameters are not fully optimized for maximum gain or production-level efficiency, which will be addressed in future design iterations.
