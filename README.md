@@ -6,9 +6,12 @@ This repository contains the Ansys HFSS simulation files for a 3x3 probe-fed mic
 ## Technical Specifications
 *   **Software:** Ansys HFSS
 *   **Operating Frequency:** 2.8 GHz
-*   **Substrate Thickness:** [0.78 mm]
+*   **Substrate Thickness:** 0.78 mm
 *   **Element Spacing:**  79 mm
 *   **Solver:** Finite Array Domain Decomposition Method (FADDM)
+*   **Broadside Gain:** 7.96 dBi (at Theta = 0°).
+*    **S11 / Return Loss:** -15.98 dB at 2.888 GHz
+
 
 ## Project Details
 1.  **Unit Cell Design:** A single probe-fed patch was designed for 2.8 GHz
@@ -17,6 +20,7 @@ This repository contains the Ansys HFSS simulation files for a 3x3 probe-fed mic
 
 <img width="562" height="387" alt="3D_gain_plot" src="https://github.com/user-attachments/assets/5b4c0edf-9016-4276-94d9-26c32c3361b5" />
 <img width="516" height="398" alt="image" src="https://github.com/user-attachments/assets/7a15dd4f-ec42-4e11-b53d-cf2144c47f84" />
+<img width="1643" height="578" alt="S11_plot" src="https://github.com/user-attachments/assets/bb389248-6947-4aa5-8df2-1dd4f8c0b7dc" />
 
 
 ## How to Use
